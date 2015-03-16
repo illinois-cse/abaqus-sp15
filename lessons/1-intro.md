@@ -53,18 +53,18 @@ Consider a steel beam of dimensions $L \times W \times H = 200\,\textrm{cm} \tim
 ### Module *Property*
 
 <img src="./img/dialog_edit_material.png" align="right" width="350"/>
-1. In the *Toolbox* area, click the *Create Material* icon ![](./img/icon_create_material.png). The *Create Material* dialog box appears. We will use the steel ASTM-A36 with the following properties:
 
-    | Material Property & Value | Name |
-    |:-:|:-:|
-    | $E = 2 \times 10^{11} \,\textrm{Pa}$ | Young's modulus |
-    | $\nu = 0.26$ | Poisson's ratio |
+| Material Property & Value | Name |
+|:-:|:-:|
+| $E = 2 \times 10^{11} \,\textrm{Pa}$ | Young's modulus |
+| $\nu = 0.26$ | Poisson's ratio |
 
+1. In the *Toolbox* area, click the *Create Material* icon ![](./img/icon_create_material.png). The *Create Material* dialog box appears. We will use the steel ASTM-A36 with the foregoing properties.
     1. Type `ASTM-A36 steel` as the `Name`.
     2. Select `Mechanical > Elasticity > Elastic`.
     3. Type `20.E11` in `Young’s Modulus` and `0.26` in `Poisson’s Ratio`.
     4. Select `Isotropic` as `Type`.
-
+    
     <img src="./img/dialog_create_section.png" align="right"/>
 2. In the *Toolbox* area, click the *Create Section* icon ![](./img/icon_create_section.png). The *Create Section* dialog box appears. In the *Create Section* dialog box:
     1. Name the section `BeamSection`.
